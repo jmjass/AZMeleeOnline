@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import { Button } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
+      <Button colorScheme="teal">Test</Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://discord.gg/SHrFCeZBDe">Arizona Melee!</a>
         </h1>
