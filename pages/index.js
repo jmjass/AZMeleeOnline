@@ -11,41 +11,24 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://discord.gg/SHrFCeZBDe">Arizona Melee!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          <code>Best State Rest State</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://joemama0s.github.io/AZSlippiLeaderboard/#/" className={styles.card}>
+            <h3>Slippi Ranked Stats &rarr;</h3>
+            <p>Climb the rankings to become the best in the state!</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://discord.gg/SHrFCeZBDe" className={styles.card}>
+            <h3>Arizona Discord &rarr;</h3>
+            <p>Join the community forum!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
@@ -94,6 +77,9 @@ export default function Home() {
           font-size: 1.1rem;
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+        p {
+          color: gray;
         }
       `}</style>
 
