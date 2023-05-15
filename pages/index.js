@@ -46,7 +46,8 @@ export default function Home() {
 
           <a href="https://discord.gg/SHrFCeZBDe" className={styles.card}>
             <h3>Arizona Discord &rarr;</h3>
-            <p>Join the community forum!</p>
+            <p>Join the community forum and be apart of the culture!
+            </p>
           </a>
 
         </div>
