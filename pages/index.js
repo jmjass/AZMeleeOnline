@@ -1,16 +1,34 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Button } from '@chakra-ui/react'
+import Todo from '../components/todo.js'
+import {
+  Box,
+  Button,
+  ButtonGroup,
+  Container,
+  Flex,
+  HStack,
+  IconButton,
+  useBreakpointValue,
+} from '@chakra-ui/react'
+import { FiMenu } from 'react-icons/fi'
+import NavBar from '../components/navbar.js'
+
 
 export default function Home() {
+  const isDesktop = useBreakpointValue({ base: false, lg: true })
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Arizona Melee</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <header>
+        <NavBar />
+      </header>
       <main>
+      
+      <Todo />
       <Button colorScheme="teal">Test</Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://discord.gg/SHrFCeZBDe">Arizona Melee!</a>
